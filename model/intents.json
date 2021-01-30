@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up"],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "See you soon",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "i have to go",
+        "bye"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is dot",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": ["I am 18 years old!", "18 years young!"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Dot.",
+        "I'm Dot!",
+        "I'm Dot Nice to meet you."
+      ]
+    },
+    {
+      "tag": "feelling",
+      "patterns": [
+        "how are you",
+        "feeling",
+        "how do you feel",
+        "Do you feel the same as me"
+      ],
+      "responses": [
+        "Not so bad",
+        "I feel great",
+        "Im fine thank you",
+        "Pretty Ok"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time it is",
+        "time",
+        "Could you tell me what time it si",
+        "could you tell me the time"
+      ],
+      "responses": ["Its xxx", "xxx", "The time is xxx", "Now is xxx"]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what date it is",
+        "date",
+        "Could you tell me what date it is",
+        "could you tell me the date",
+        "what's the date today",
+        "whats the day today"
+      ],
+      "responses": ["Its xxx", "xxx", "The date is xxx", "Today is xxx"]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "play spotify",
+        "spotify",
+        "play music",
+        "music",
+        "play my last played song"
+      ],
+      "responses": ["There you go", "Playing music", "Yes sir", "Ok"]
+    },
+    {
+      "tag": "music-stop",
+      "patterns": ["stop", "pause the music", "stop music", "music"],
+      "responses": ["There you go", "Music stoped", "Yes sir", "Ok"]
+    }
+  ]
+}
